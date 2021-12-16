@@ -1,0 +1,7 @@
+==SmashTyper==
+V1.1 Basic Functionality
+Bug1 Non-dict word defaults to existing dict word (annana --> an)
+Bug2 Ending with punctuation revert suggested word to typed ==> Special functions for punctuations
+Bug3 Cannot use normal windows shortcuts (tab, enter) ==> Implement functionality via hotkeys
+
+V2.1 LSTM Prediction Model 
