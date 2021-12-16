@@ -49,6 +49,5 @@ def callback(event):
         elif event.name == 'esc':
             return None
 
-word = WordBuilder()            
+word = WordBuilder()
 keyboard.hook(callback, suppress=True,on_remove=True)
-
