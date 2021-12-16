@@ -1,5 +1,6 @@
 import keyboard
 import utils
+import os
 
 class WordBuilder():
     def __init__(self):
@@ -51,3 +52,5 @@ def callback(event):
 
 word = WordBuilder()
 keyboard.hook(callback, suppress=True,on_remove=True)
+print("SmashTyper Activated ...")
+input()
